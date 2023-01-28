@@ -3,10 +3,6 @@ class ListNode(var `val` : Int) {
     var next: ListNode? = null
 }
 
-fun main() {
-    println(10 % 10)
-}
-
 class Solution {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         val realSum = l1!!.`val` + l2!!.`val`
