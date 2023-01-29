@@ -5,6 +5,7 @@ import kotlin.math.sqrt
 fun main() {
     println(predictAge(65, 60, 75, 55, 60, 63, 64, 45))
 }
+
 // -36, -45, 86, 8, -4, -40, -1, 22
 fun maxSequence(arr: List<Int>): Int {
     var maxSum = 0
@@ -50,4 +51,4 @@ fun bingo(ticket: Array<Pair<String, Int>>, win: Int): String =
     if (ticket.count { it.second.toChar() in it.first } >= win) "Winner!" else "Loser!"
 
 fun predictAge(vararg age: Int): Int =
-    sqrt(age.map { it*it }.sum().toDouble()).div(2).toInt()
+    sqrt(age.map { it * it }.sum().toDouble()).div(2).toInt()
