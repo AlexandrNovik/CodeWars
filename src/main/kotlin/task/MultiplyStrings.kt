@@ -1,6 +1,6 @@
 package task
 
-
+// https://leetcode.com/problems/multiply-strings/description/
 fun main() {
     val s = MultiplyStrings()
     println(s.multiply("28", "341"))
